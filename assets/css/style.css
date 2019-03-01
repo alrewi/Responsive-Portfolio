@@ -1,0 +1,226 @@
+/* 
+====================
+Fixed Header 
+====================
+*/
+.main-header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    height: 64px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.logo {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-decoration: none;
+    float: left;
+    margin-left: 5%;
+    width: 230px;
+}
+.nav-bar {
+    float: right;
+    margin-right: 5%;
+    margin-top:2%;
+    width: 140px;
+}
+.nav-but {
+    text-decoration: none;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+}
+.nav-but-border {
+    border-right: 1px solid #dddddd;
+    padding-right: 5px;
+}
+/*
+====================
+Main Content Area
+====================
+*/
+.container {
+    background-image: url("../images/skulls.png");
+}
+.content-area {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 20px 20px 40px 20px;
+    margin: 10% 30% 10% 5%;
+}
+.page-heading {
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    padding: 0 0 20px 0;
+    margin-bottom: 20px;
+}
+/*
+====================
+About Me
+====================
+*/
+#bio {
+    line-height: 1.5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+#my-photo {
+    float: left;
+    margin-right: 20px;
+}
+/*
+====================
+Portfolio
+====================
+*/
+
+
+.game {
+    padding-top: 100px;
+    height: 100px;
+    width: 200px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 20px;
+}
+.row {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.column {
+    display: flex;   
+    
+}
+
+.game1 {
+    background-image: url("../images/blades.jpg");
+}
+.game2 {
+    background-image: url("../images/drop.jpg");
+}
+.game3 {
+    background-image: url("../images/flower.jpg");
+}
+.game4 {
+    background-image: url("../images/sunset.jpg");
+}
+.game5 {
+    background-image: url("../images/surf.jpg");
+}   
+.game-title {
+    height: 25%;
+    width: 216px;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding-top: 10px;
+}
+.game-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+/*
+====================
+Contact
+====================
+*/
+.form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+.form-input {
+    width: 60%;
+}
+#form-message {
+    width: 60%;
+    height: 150px;
+}
+#submit-btn {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 90px;
+    height: 30px;
+    font-size: 14px;
+}
+/*
+====================
+Sticky Footer
+====================
+*/
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1 0 auto;
+}
+.footer {
+    height: 70px;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    text-align: center;
+    flex-shrink: 0;
+}
+.copyright {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+
+@media (max-width: 768px) {
+.content-area {
+    margin: 15% 5% 10% 5%;
+}
+}
+
+@media (max-width: 640px) {
+.main-header {
+    height: 128px;
+}
+.logo {
+    width: 100%;
+    margin: 0;
+}
+.nav-bar {
+    margin-top: 4%;
+    margin-right: 36%;
+}
+.content-area {
+    margin: 30% 5% 10% 5%;
+}
+.row {
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;   
+    flex-wrap: wrap;
+  }
+
+.blank-game {
+    display: none;
+}
+
+
+
+}
+
+
