@@ -108,10 +108,12 @@ Portfolio
 }
 
 .game1 {
-    background-image: url("../images/blades.jpg");
+    background-image: url("../images/honky.jpg");
+    background-size: 200px 166px;
 }
 .game2 {
-    background-image: url("../images/drop.jpg");
+    background-image: url("../images/psychic.jpg");
+    background-size: 200px 166px;
 }
 .game3 {
     background-image: url("../images/flower.jpg");
