@@ -116,7 +116,9 @@ Portfolio
     background-size: 200px 166px;
 }
 .game3 {
-    background-image: url("../images/flower.jpg");
+    background-image: url("../images/crystal.jpeg");
+    background-size: cover;
+    height: 65px;
 }
 .game4 {
     background-image: url("../images/sunset.jpg");
@@ -130,6 +132,9 @@ Portfolio
     background-color: #4aaaa5;
     text-align: center;
     padding-top: 10px;
+}
+.crystal {
+    height: 25px;
 }
 .game-link {
     text-decoration: none;
