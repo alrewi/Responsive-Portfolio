@@ -121,7 +121,8 @@ Portfolio
     height: 65px;
 }
 .game4 {
-    background-image: url("../images/sunset.jpg");
+    background-image: url("../images/hubble.jpeg");
+    background-size: 200px 166px;
 }
 .game5 {
     background-image: url("../images/surf.jpg");
