@@ -125,7 +125,9 @@ Portfolio
     background-size: 200px 166px;
 }
 .game5 {
-    background-image: url("../images/surf.jpg");
+    background-image: url("../images/rock2.jpg");
+    background-size: 200px 166px;
+
 }   
 .game-title {
     height: 25%;
